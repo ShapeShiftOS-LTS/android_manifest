@@ -119,7 +119,6 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/libs/systemui" />
-
   <remove-project name="platform/libcore" />
 
   <!-- Packages -->
