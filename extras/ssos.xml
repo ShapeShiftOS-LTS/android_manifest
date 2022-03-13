@@ -78,6 +78,7 @@
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="ssos" />    
 
   <!-- Packages -->
+  <project path="packages/apps/Car/Settings" name="platform/packages/apps/Car/Settings" remote="ssos-a11-asb" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="ssos" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ssos-a11-asb" />                           
   <project path="packages/apps/Settings/ShapeShifter" name="android_packages_apps_ShapeShifter" remote="ssos" />
