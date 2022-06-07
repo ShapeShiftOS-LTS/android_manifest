@@ -19,6 +19,7 @@
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
 
   <!-- External -->
+  <project path="external/aac" name="android_external_aac" remote="lineage" />
   <project path="external/boringssl" name="android_external_boringssl" remote="awaken" />
   <project path="external/cldr" name="android_external_cldr" remote="awaken" />
   <project path="external/icu" name="android_external_icu" remote="awaken" />
