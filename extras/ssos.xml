@@ -11,7 +11,7 @@
   <project path="bionic" name="android_bionic" remote="ssos" />
 
   <!-- Bootable -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="ssos" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="ssos-a11-asb" />
 
   <!-- Build -->
   <project path="build/make" name="android_build" remote="ssos-a11-asb" groups="pdk" >
