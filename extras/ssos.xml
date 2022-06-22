@@ -54,7 +54,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="ssos-a11-asb" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="ssos" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="ssos" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ssos" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ssos-a11-asb" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="ssos" />
 
   <!-- Manifest -->
