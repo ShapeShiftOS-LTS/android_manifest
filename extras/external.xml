@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- External -->
+  <project path="external/aac" name="android_external_aac" remote="lineage" />
+  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
+  <project path="external/boringssl" name="android_external_boringssl" remote="awaken" />
+  <project path="external/cldr" name="android_external_cldr" remote="awaken" />
+  <project path="external/cpu_features" name="android_external_cpu_features" remote="awaken" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
+  <project path="external/icu" name="android_external_icu" remote="awaken" />
+  <project path="external/libavc" name="android_external_libavc" remote="lineage" />
+  <project path="external/libexif" name="android_external_libexif" remote="lineage" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="awaken" />
+  <project path="external/libyuv" name="android_external_libyuv" remote="awaken" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
+  <project path="external/perfetto" name="android_external_perfetto" remote="awaken" />
+  <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="lineage" />
+  <project path="external/toybox" name="android_external_toybox" remote="awaken" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="lineage" />
+
   <!-- Hardware -->
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="lineage" />
 
@@ -18,37 +41,14 @@
 
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
 
-  <!-- External -->
-  <project path="external/aac" name="android_external_aac" remote="lineage" />
-  <project path="external/boringssl" name="android_external_boringssl" remote="awaken" />
-  <project path="external/cldr" name="android_external_cldr" remote="awaken" />
-  <project path="external/icu" name="android_external_icu" remote="awaken" />
-  <project path="external/perfetto" name="android_external_perfetto" remote="awaken" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
-  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
-  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
-  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
-  <project path="external/toybox" name="android_external_toybox" remote="awaken" />
-  <project path="external/cpu_features" name="android_external_cpu_features" remote="awaken" />
-  <project path="external/libavc" name="android_external_libavc" remote="lineage" />
-  <project path="external/libexif" name="android_external_libexif" remote="lineage" />
-  <project path="external/libvpx" name="android_external_libvpx" remote="awaken" />
-  <project path="external/libyuv" name="android_external_libyuv" remote="awaken" />
-  <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="lineage" />
-  <project path="external/tremolo" name="android_external_tremolo" remote="lineage" />
-
   <!-- NFC -->
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="lineage" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lineage" />
   <project path="system/nfc" name="android_system_nfc" remote="lineage" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="lineage" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lineage" revision="lineage-18.1-sn100x" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage" revision="lineage-18.1-sn100x" />
 
@@ -60,31 +60,32 @@
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" clone-depth="1" remote="awaken" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="awaken" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" />
   <project path="prebuilts/clang/host/linux-x86/clang-azure" name="Panchajanya1999/azure-clang" remote="gitlab" revision="main" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" clone-depth="1" remote="lineage" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="awaken" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" clone-depth="1" remote="awaken" />
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
 
   <!-- Proprietary inclusions -->
-  <project path="vendor/gapps" name="vendor_gapps" remote="gitlab-ashutosh" clone-depth="1"  />
-  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="gitlab-ashutosh" clone-depth="1"  />
 
   <!-- System -->
-  <project path="system/libhwbinder" name="android_system_libhwbinder" remote="awaken" />
-  <project path="system/iorap" name="android_system_iorap" remote="awaken" />
   <project path="system/bpf" name="android_system_bpf" remote="awaken" />
   <project path="system/bpfprogs" name="android_system_bpfprogs" remote="awaken" />
-  <project path="system/timezone" name="android_system_timezone" remote="awaken" />
-  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
+  <project path="system/iorap" name="android_system_iorap" remote="awaken" />
+  <project path="system/libhwbinder" name="android_system_libhwbinder" remote="awaken" />
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="awaken" />
+  <project path="system/timezone" name="android_system_timezone" remote="awaken" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" remote="lineage" />
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
 
   <!-- Vendor -->
-  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="lineage" />
-  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,pdk" remote="lineage" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,pdk" remote="lineage" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="lineage" />
+
 </manifest>
