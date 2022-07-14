@@ -160,10 +160,6 @@
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" revision="android_11-caf" remote="ssos" />
 
   <!-- QCOM vendor -->
-  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" revision="android_11-caf" remote="ssos" />
-  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="ssos" revision="android_11-caf" />
-  <project path="hardware/qcom-caf/camera" name="android_hardware_qcom_camera" revision="android_11-caf" remote="ssos" />
-  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="ssos" >
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="ssos" />
   <project path="vendor/google/sounds" name="android_vendor_google_sounds" remote="ssos" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="ssos"  />
@@ -202,7 +198,7 @@
   <project path="tools/metalava" name="android_tools_metalava" remote="ssos" />
 
   <!-- Vendor -->
-  <project path="vendor/ssos" name="android_vendor_ssos" remote="ssos-a11-asb"  />
-  <project path="vendor/support" name="android_vendor_support" remote="ssos"  />
+  <project path="vendor/ssos" name="android_vendor_ssos" remote="ssos-a11-asb" />
+  <project path="vendor/support" name="android_vendor_support" remote="ssos" />
 
 </manifest>
