@@ -895,6 +895,9 @@
   <!-- Add all tracked SSOS repos -->
   <include name="extras/ssos.xml" />
 
+  <!-- Add all tracked ssos-a11-asb repos -->
+  <include name="extras/ssos-a11-asb.xml" />
+
   <!-- Add all tracked external repos -->
   <include name="extras/external.xml" />
 
