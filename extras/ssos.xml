@@ -52,7 +52,6 @@
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="ssos" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="ssos" />
   <project path="packages/apps/Plugins" name="android_packages_apps_Plugins" remote="ssos" />
-  <project path="packages/apps/Settings/ShapeShifter" name="android_packages_apps_ShapeShifter" remote="ssos" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="ssos" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="ssos" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="ssos" />
