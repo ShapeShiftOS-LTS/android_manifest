@@ -19,12 +19,19 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- External -->
+  <project path="external/dtc" name="android_external_dtc" remote="ssos-a11-asb" />
+
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="ssos-a11-asb" />
   <project path="frameworks/base" name="android_frameworks_base" remote="ssos-a11-asb" />
+  <project path="frameworks/minikin" name="android_frameworks_minikin" remote="ssos-a11-asb" />
   <project path="frameworks/native" name="android_frameworks_native" remote="ssos-a11-asb" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="ssos-a11-asb" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ssos-a11-asb" />
+
+  <!-- Hardware -->
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="ssos-a11-asb" />
 
   <!-- Libcore -->
   <project path="libcore" name="android_libcore" remote="ssos-a11-asb" />
@@ -35,13 +42,16 @@
   <!-- NFC -->
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="ssos-a11-asb" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="ssos-a11-asb" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="ssos-a11-asb" revision="android_11-sn100x" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="ssos-a11-asb" />
   <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="ssos-a11-asb" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="ssos-a11-asb" />
+  <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="ssos-a11-asb" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="ssos-a11-asb" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="ssos-a11-asb" />
+  <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="ssos-11-asb" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ssos-a11-asb" />
   <project path="packages/apps/Settings/ShapeShifter" name="android_packages_apps_ShapeShifter" remote="ssos-a11-asb" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="ssos-a11-asb" />
