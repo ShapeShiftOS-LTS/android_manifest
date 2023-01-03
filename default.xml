@@ -20,24 +20,17 @@
            fetch="https://github.com/ShapeShiftOS"
            revision="android_11" />
 
-  <remote name="derp-gitlab"
-          fetch="https://gitlab.com/DerpFest" />
-
   <remote  name="lineage"
            revision="lineage-18.1"
            fetch="https://github.com/LineageOS" />
 
-  <remote name="pixel-gitlab-self-hosted"
-          fetch="https://gitlab.pixelexperience.org/android"
-          revision="eleven" />
+  <remote  name="pixel-gitlab-self-hosted"
+           fetch="https://gitlab.pixelexperience.org/android"
+           revision="eleven" />
 
-  <remote name="pixel"
-          fetch="https://github.com/PixelExperience"
-          revision="eleven" />
-
-  <remote  name="gitlab-awaken"
-           revision="11"
-           fetch="https://gitlab.com/saikiran2001/" />
+  <remote  name="pixel"
+           fetch="https://github.com/PixelExperience"
+           revision="eleven" />
 
   <remote  name="gitlab-ashutosh"
            revision="android_11"
@@ -47,28 +40,13 @@
            fetch="https://github.com/ArrowOS"
            revision="refs/heads/arrow-11.0" />
 
-  <remote name="caf"
-          fetch="https://source.codeaurora.org/quic/la"
-          revision="refs/tags/LA.UM.8.12.r1-13900-sm8250.0" />
-
-  <remote  name="syberia"
-           fetch="https://github.com/syberia-project"
-           revision="11.0" />
-
-  <remote  name="syberia-bb"
-           fetch="https://bitbucket.org/syberia-project"
-           revision="refs/heads/11.0" />
-
-  <remote  name="ShapeShiftOS-Devices"
-           fetch="https://github.com/ShapeShiftOS-Devices"
-           revision="android_11" />
+  <remote  name="caf"
+           fetch="https://source.codeaurora.org/quic/la"
+           revision="refs/tags/LA.UM.8.12.r1-13900-sm8250.0" />
            
-  <remote  name="ssos-a11-asb"
-           fetch="https://github.com/ssos-a11-asb"
+  <remote  name="ssos-lts"
+           fetch="https://github.com/ShapeShiftOS-LTS"
            revision="android_11" />
-
-  <remote  name="los"
-           fetch="https://github.com/lineageos"/>
 
   <default revision="refs/tags/android-11.0.0_r48"
            remote="aosp"
@@ -895,8 +873,8 @@
   <!-- Add all tracked SSOS repos -->
   <include name="extras/ssos.xml" />
 
-  <!-- Add all tracked ssos-a11-asb repos -->
-  <include name="extras/ssos-a11-asb.xml" />
+  <!-- Add all tracked ssos-lts repos -->
+  <include name="extras/ssos-lts.xml" />
 
   <!-- Add all tracked external repos -->
   <include name="extras/external.xml" />
