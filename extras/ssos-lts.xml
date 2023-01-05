@@ -57,6 +57,7 @@
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="ssos-lts" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="ssos-lts" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="ssos-lts" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="ssos-lts" />
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="ssos-lts" />
