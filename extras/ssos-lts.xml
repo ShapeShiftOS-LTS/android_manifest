@@ -32,17 +32,16 @@
 
   <!-- Hardware -->
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="ssos-lts" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="android_11-caf-sdm845" remote="ssos-lts" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="android_11-caf-sm8150" remote="ssos-lts" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" remote="ssos-lts" revision="android_11-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" remote="ssos-lts" revision="android_11-caf-sm8350" />
 
   <!-- Libcore -->
   <project path="libcore" name="android_libcore" remote="ssos-lts" />
 
   <!-- Manifest -->
   <project path="manifest" name="android_manifest" remote="ssos-lts" />
-
-  <!-- NFC -->
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="ssos-lts" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="ssos-lts" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="ssos-lts" revision="android_11-sn100x" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="ssos-lts" />
@@ -51,6 +50,7 @@
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="ssos-lts" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="ssos-lts" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="ssos-lts" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="ssos-lts" />
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="ssos-lts" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ssos-lts" />
   <project path="packages/apps/Settings/ShapeShifter" name="android_packages_apps_ShapeShifter" remote="ssos-lts" />
@@ -58,25 +58,17 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="ssos-lts" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="ssos-lts" />
 
-  <!-- QCOM hardware -->
-  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="android_11-caf-sdm845" remote="ssos-lts" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="android_11-caf-sm8150" remote="ssos-lts" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" remote="ssos-lts" revision="android_11-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" remote="ssos-lts" revision="android_11-caf-sm8350" />
-
-  <!-- QCOM vendor -->
-  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="ssos-lts" />
-
-  <!-- QTI BT -->
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="ssos-lts" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="ssos-lts" />
-
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="ssos-lts" />
   <project path="system/core" name="android_system_core" remote="ssos-lts" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="ssos-lts" />
 
   <!-- Vendor -->
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="ssos-lts" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="ssos-lts" revision="android_11-sn100x" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="ssos-lts" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="ssos-lts" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="ssos-lts" />
   <project path="vendor/ssos" name="android_vendor_ssos" remote="ssos-lts" />
 
 </manifest>

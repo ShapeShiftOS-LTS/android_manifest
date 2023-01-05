@@ -6,44 +6,55 @@
            revision="11"
            fetch="https://github.com/Project-Awaken/" />
 
+  <!-- AOSP -->
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
+  <!-- GitHub -->
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <!-- GitLab -->
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
+  <!-- GitHub (ShapeShiftOS) -->
   <remote  name="ssos"
            fetch="https://github.com/ShapeShiftOS"
            revision="android_11" />
 
+  <!-- LineageOS -->
   <remote  name="lineage"
            revision="lineage-18.1"
            fetch="https://github.com/LineageOS" />
 
+  <!-- GitLab (PixelExperience self-hosted) -->
   <remote  name="pixel-gitlab-self-hosted"
            fetch="https://gitlab.pixelexperience.org/android"
            revision="eleven" />
 
+  <!-- GitHub (PixelExperience) -->
   <remote  name="pixel"
            fetch="https://github.com/PixelExperience"
            revision="eleven" />
 
+  <!-- GitLab (ShapeShiftOS) -->
   <remote  name="gitlab-ashutosh"
            revision="android_11"
            fetch="https://gitlab.com/AshutoshSundresh/" />
 
+  <!-- GitHub (ArrowOS) -->
   <remote  name="arrow"
            fetch="https://github.com/ArrowOS"
            revision="refs/heads/arrow-11.0" />
 
+  <!-- CAF -->
   <remote  name="caf"
            fetch="https://source.codeaurora.org/quic/la"
            revision="refs/tags/LA.UM.8.12.r1-13900-sm8250.0" />
-           
+
+  <!-- GitHub (ShapeShiftOS-LTS) -->       
   <remote  name="ssos-lts"
            fetch="https://github.com/ShapeShiftOS-LTS"
            revision="android_11" />

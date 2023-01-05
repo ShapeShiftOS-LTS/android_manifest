@@ -14,7 +14,11 @@
   <project path="development" name="android_development" remote="ssos" />
 
   <!-- Device -->
-  <project path="device/ssos/sepolicy" name="android_device_ssos_sepolicy" remote="ssos"  />
+  <project path="device/ssos/sepolicy" name="android_device_ssos_sepolicy" remote="ssos" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ssos" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="ssos" revision="android_11-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="ssos" revision="android_11-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="ssos" />
 
   <!-- External -->
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="ssos" />
@@ -44,35 +48,6 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="ssos" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="ssos" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="ssos" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="ssos" />
-
-  <!-- Packages -->
-  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="ssos" />
-  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="ssos" />
-  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="ssos" />
-  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="ssos" />
-  <project path="packages/apps/Plugins" name="android_packages_apps_Plugins" remote="ssos" />
-  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="ssos" />
-  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="ssos" />
-  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="ssos" />
-  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="ssos" />
-  <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="ssos" />
-  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="ssos" />
-  <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="ssos" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="ssos" />
-
-  <!-- Prebuilts -->
-  <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="ssos" />
-  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="ssos" />
-  <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="ssos" />
-
-  <!-- QCOM device -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ssos"  />
-  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="ssos" revision="android_11-legacy" />
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="ssos" revision="android_11-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="ssos" />
-
-  <!-- QCOM hardware -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" revision="android_11-caf" remote="ssos" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="ssos" revision="android_11-caf" />
   <project path="hardware/qcom-caf/camera" name="android_hardware_qcom_camera" revision="android_11-caf" remote="ssos" />
@@ -101,11 +76,11 @@
 	</project>
   <project path="hardware/qcom-caf/keymaster" name="android_hardware_qcom_keymaster" revision="android_11-caf" remote="ssos" />
   <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" revision="android_11-caf-sdm660" remote="ssos" />
-  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" revision="android_11-caf-sdm660" remote="ssos"  />
+  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" revision="android_11-caf-sdm660" remote="ssos" />
   <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" revision="android_11-caf-sdm660" remote="ssos" />
-  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="android_11-caf-sdm845" remote="ssos"  />
+  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="android_11-caf-sdm845" remote="ssos" />
   <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" revision="android_11-caf-sdm845" remote="ssos" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="android_11-caf-sm8150" remote="ssos"  />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="android_11-caf-sm8150" remote="ssos" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="android_11-caf-sm8150" remote="ssos" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" remote="ssos" revision="android_11-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" remote="ssos" revision="android_11-caf-sm8250" />
@@ -113,23 +88,27 @@
   <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" remote="ssos" revision="android_11-caf-sm8350" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom-caf_thermal" remote="ssos" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" revision="android_11-caf" remote="ssos" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="ssos" />
 
-  <!-- QCOM vendor -->
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="ssos" />
-  <project path="vendor/google/sounds" name="android_vendor_google_sounds" remote="ssos" />
-  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="ssos"  />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="ssos" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="ssos" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="ssos" />
-  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="ssos" />
-  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="ssos" />
-  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="ssos" />
-  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="ssos" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="ssos" />
+  <!-- Packages -->
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="ssos" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="ssos" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="ssos" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="ssos" />
+  <project path="packages/apps/Plugins" name="android_packages_apps_Plugins" remote="ssos" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="ssos" />
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="ssos" />
+  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="ssos" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="ssos" />
+  <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="ssos" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="ssos" />
+  <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="ssos" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="ssos" />
 
-  <!-- QTI BT -->
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="ssos" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="ssos" />
+  <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="ssos" />
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="ssos" />
+  <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="ssos" />
 
   <!-- System -->
   <project path="system/extras" name="android_system_extras" remote="ssos" />
@@ -147,6 +126,19 @@
   <project path="tools/metalava" name="android_tools_metalava" remote="ssos" />
 
   <!-- Vendor -->
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="ssos" />
+  <project path="vendor/google/sounds" name="android_vendor_google_sounds" remote="ssos" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="ssos" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="ssos" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="ssos" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="ssos" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="ssos" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="ssos" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="ssos" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="ssos" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="ssos" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="ssos" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="ssos" />
   <project path="vendor/support" name="android_vendor_support" remote="ssos" />
 
 </manifest>
