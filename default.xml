@@ -39,11 +39,6 @@
            fetch="https://github.com/PixelExperience"
            revision="eleven" />
 
-  <!-- GitLab (ShapeShiftOS) -->
-  <remote  name="gitlab-ashutosh"
-           revision="android_11"
-           fetch="https://gitlab.com/AshutoshSundresh/" />
-
   <!-- GitHub (ArrowOS) -->
   <remote  name="arrow"
            fetch="https://github.com/ArrowOS"
