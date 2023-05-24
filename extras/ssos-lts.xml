@@ -21,6 +21,7 @@
 
   <!-- External -->
   <project path="external/dtc" name="android_external_dtc" remote="ssos-lts" />
+  <project path="external/zlib" name="android_external_zlib" remote="ssos-lts" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="ssos-lts" />
