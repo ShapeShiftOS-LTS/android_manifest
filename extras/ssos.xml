@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <!-- ART -->
-  <project path="art" name="android_art" remote="ssos" />
-  
   <!-- Bionic -->
   <project path="bionic" name="android_bionic" remote="ssos" />
 

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- ART -->
+  <project path="art" name="android_art" remote="ssos-lts" />
+
   <!-- Bootable -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="ssos-lts" />
 
